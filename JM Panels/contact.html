@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>JM Panels</title>
+    <title>Side Menu Bar CSS</title>
+    <link rel="stylesheet" href="style.css">
+        
+    <h1>JM Panels - Contact Us</h1>
+    <style>
+        img {
+            width: 300px;
+            border-radius: 150px;
+        }
+    
+    </style>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+<!--Forms-->
+<p style="margin: 20px;"><strong>Please fill out the information below.</strong></p><br>
+<hr>
+    <div class="input">
+        <form action="process.php" method="POST">
+            <label for="companyname">Company Name:</label>
+            <input type="text" placeholder="Company name" name="company-name"><br><br>
+            <label for="firstnamelastname">First Name:</label>
+            <input type="text" placeholder="First Name" name="first-name" ><br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" placeholder="Last Name" name="last-name" ><br><br>
+            <label for="email" name=email>Email:</label>
+                
+            <input type="email" name="first-name" value="@gmail.com"><p>We only accept gmail addresses at this time.</p><br><br>
+            <div>
+                <label style="margin-bottom: 10px;" for="message">Comments:</label>
+                <textarea></textarea>
+            </div>    
+        </form>
+    </div>
+    <div>
+       <a href="index.html">
+           <button class="butt">Facebook Page</button>
+       </a>
+        
+        
+    </div>
+</body>
+</html>
